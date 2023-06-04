@@ -1,10 +1,8 @@
+import AppRoutes from "../src/routs/routs.jsx"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">    
-      </header>
-    </div>
-  );
+  <AppRoutes/>
+  )
 }
 
 export default App;
