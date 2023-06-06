@@ -46,7 +46,7 @@ export default function Search() {
       const data = await octokit.paginate(
         `https://api.github.com/search/users?q=${userV}&${move}`,
         {
-          per_page: 20,
+          per_page: 100,
           headers: {
             "X-GitHub-Api-Version": "2022-11-28",
           },
